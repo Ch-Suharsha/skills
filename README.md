@@ -4,20 +4,16 @@ Reusable AI-agent skills maintained by Harsha.
 
 ## Available skills
 
-### Extractor
-
-`extractor` accepts a YouTube URL or video ID, retrieves its public transcript,
-cleans and timestamps it, collects basic video metadata, and helps relate the
-video's ideas to a practical workflow.
-
-The skill does not require a YouTube account, cookies, or private account data.
-It can only process videos with publicly accessible captions.
+| Skill | Purpose | Documentation |
+| --- | --- | --- |
+| `extractor` | Extract and analyze public YouTube transcripts for practical workflow insights. | [Read the extractor guide](extractor/README.md) |
 
 ## Repository structure
 
 ```text
 skills/
 └── extractor/
+    ├── README.md
     ├── SKILL.md
     ├── agents/
     ├── scripts/
@@ -25,7 +21,8 @@ skills/
 ```
 
 Future skills should be added as additional top-level directories alongside
-`extractor`.
+`extractor`. Every skill directory should contain its own README so people can
+understand its purpose and usage without reading its internal agent instructions.
 
 ## Install
 
