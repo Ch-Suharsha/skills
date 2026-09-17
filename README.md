@@ -1,6 +1,6 @@
 # Skills
 
-Reusable AI-agent skills maintained by Harsha.
+A collection of reusable AI-agent skills.
 
 ## Available skills
 
