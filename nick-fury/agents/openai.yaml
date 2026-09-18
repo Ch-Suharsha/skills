@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nick Fury"
+  short_description: "Turn project ideas into guided build prompts"
+  default_prompt: "Use $nick-fury to turn my project idea into a guided, copy-paste build plan."
